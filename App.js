@@ -1,12 +1,12 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-//import ImageBase from '.\\components\\ImageBase';
+import ImageBase from './components/ImageBase';
 
 export default function App() {
   return (
     <View style={styles.container}>
       <Text>Hello World!</Text>
-      {/* <ImageBase></ImageBase> */}
+      <ImageBase></ImageBase>
     </View>
   );
 }
