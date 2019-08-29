@@ -12,9 +12,9 @@ export default function App() {
       {/* <ImageBase></ImageBase> */}
       <Greeting name="Davoleo"></Greeting>
       <Greeting name="Gianpaolo"></Greeting>
-      {/* <BlinkText text="I'm some simple blinking text" />
+      <BlinkText text="I'm some simple blinking text" />
       <BlinkText text="It's not that I'm blinking for you or anything ù.ù" />
-      <BlinkText text="Blink Blink Blink" /> */}
+      <BlinkText text="Blink Blink Blink" />
     
       <DimensionsSample fix={true}></DimensionsSample>    
     </View>
@@ -24,11 +24,12 @@ export default function App() {
 }
 
 //It seems some kind of CSS Sylesheet written in React (Used in the view on the main page of the App)
+//React uses CSS flexbox to align app content in a layout
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    alignItems: 'stretch',
+    justifyContent: 'center'
   },
 });
