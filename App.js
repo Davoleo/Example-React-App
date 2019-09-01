@@ -5,6 +5,7 @@ import Greeting from "./components/Greeting"
 import BlinkText from './components/BlinkingText';
 import DimensionsSample from './components/DimensionsSample';
 import ToUpperCaseText from './components/ToUppercaseText';
+import Touchables from './components/Touchables';
 
 export default function App() {
   return (
@@ -16,9 +17,10 @@ export default function App() {
       {/* <BlinkText text="I'm some simple blinking text" />
       <BlinkText text="It's not that I'm blinking for you or anything ù.ù" />
       <BlinkText text="Blink Blink Blink" /> */}
-      <ToUpperCaseText></ToUpperCaseText>
+      {/* <ToUpperCaseText></ToUpperCaseText> */}
+      <Touchables></Touchables>
     
-      <DimensionsSample fix={true}></DimensionsSample>    
+      {/* <DimensionsSample fix={true}></DimensionsSample>     */}
     </View>
     
     //<DimensionsSample fix={false}></DimensionsSample>  //Everything else must be commented for this example to work
